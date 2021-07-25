@@ -3,18 +3,62 @@ body.dark-mode {
   color: white;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100%;
-}
-
-.section {
+section {
   display: flex;
   flex-direction: column;
   text-align: center;
   place-content: center;
+
   padding: 2rem;
   height: 100%;
+}
+
+.hero {
+  height: 460px;
+  background-color: rgb(123, 157, 221);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.featured-title {
+  margin: 8pt; 
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+
+  height: 450px;
+
+  background-color: antiquewhite;
+}
+
+.feature-profiles {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  width: 30%;
+  height: 200pt;
+  margin: 8pt;
+
+  background-color: blue;
+}
+
+.gallery-invitation {
+  background-color: orange;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+}
+
+.gallery-invitation-button {
+  width: 150pt;
+  height: 60pt;
 }
