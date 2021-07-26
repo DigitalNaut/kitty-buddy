@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -9,20 +14,21 @@ header {
   background-color: rgb(136, 32, 32);
 }
 
+.logo > a {
+  color: white;
+}
+
 .header-nav {
   display: flex;
   flex-direction: row;
 
   height: 32pt;
-  
+
   background-color: rgb(122, 206, 206);
 }
 
-.header-nav > button {
-  cursor: pointer;
+.header-nav > a {
   padding: 8pt;
 
   height: 100%;
-
-  border: none;
 }
