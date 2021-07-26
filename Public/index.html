@@ -8,27 +8,22 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap"
-    rel="stylesheet">
-
-  <script src="https://kit.fontawesome.com/c4c53aa212.js" crossorigin="anonymous"></script>
+    rel="stylesheet" />
 
   <link rel="stylesheet" href="/src/css/app.css" />
   <link rel="stylesheet" href="/src/css/index.css" />
 
   <script src="/src/js/preload.js"></script>
+  <script src="/src/components/Header/header.mjs" type="module" crossorigin="anonymous"></script>
+  <script src="/src/components/Footer/footer.mjs" type="module" crossorigin="anonymous"></script>
+  <script src="/src/components/Profile/profile.mjs" type="module" crossorigin="anonymous"></script>
 </head>
 
 <body class="dark preload">
   <div class="app-wrapper">
     <div class="container responsive">
-
-      <header>
-        <div>KittyBuddy</div>
-        <nav class="header-nav">
-          <button>View Gallery</button>
-          <button><i class="fas fa-moon"></i></button>
-        </nav>
-      </header>
+      
+      <header-component></header-component>
 
       <section class="hero">
         <h1>Kitty Buddy</h1>
@@ -41,39 +36,9 @@
             <h1 class="featured-title">Featured feline friends</h1>
 
             <div class="featured-profiles responsive">
-              <div class="profile responsive">
-
-                <div class="profile-picture">
-                  <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg" />
-                </div>
-                <div class="profile-caption">
-                  <span>Name</span>
-                  <span>Age</span>
-                </div>
-
-              </div>
-              <div class="profile responsive">
-
-                <div class="profile-picture">
-                  <img src="https://images.unsplash.com/photo-1604675223954-b1aabd668078" />
-                </div>
-                <div class="profile-caption">
-                  <span>Name</span>
-                  <span>Age</span>
-                </div>
-
-              </div>
-              <div class="profile responsive">
-
-                <div class="profile-picture">
-                  <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A7E9/production/_118158924_gettyimages-507245091.jpg" />
-                </div>
-                <div class="profile-caption">
-                  <span>Name</span>
-                  <span>Age</span>
-                </div>
-
-              </div>
+              <featured-profile></featured-profile>
+              <featured-profile></featured-profile>
+              <featured-profile></featured-profile>
             </div>
           </section>
 
@@ -84,27 +49,7 @@
         </div>
       </main>
 
-      <footer>
-        <nav>
-          <div class="footer-logo">KittyBuddy</div>
-          <div class="footer-nav-links">
-            <span><a href="#">Source Code</a></span>
-            <span><a href="#">About Hackademy</a></span>
-            <span><a href="#">About the Project</a></span>
-            <span><a href="#">About Me</a></span>
-          </div>
-
-          <div class="footer-separator" ></div>
-
-          <div class="footer-nav-circle-buttons">
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-          </div>
-          <span class="footer-copyright">&copy;DigitalNaut. John Bernal 2021. Kindness to animals.</span>
-        </nav>
-      </footer>
+      <footer-component></footer-component>
 
     </div>
   </div>

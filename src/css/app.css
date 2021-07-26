@@ -1,8 +1,7 @@
-@import "./main/header.css";
-@import "./main/footer.css";
+/* Required for the components or FA breaks ¯\_(ツ)_/¯ */
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css);
 
 /* Baseline styles */
-
 * {
   padding: 0;
   margin: 0;
