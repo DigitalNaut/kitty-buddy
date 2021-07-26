@@ -10,3 +10,28 @@ export async function getHtml(path) {
   }
 }
 
+// async function createComponent(componentName, htmlSourcePath) {
+//   const template = document.createElement("template");
+//   template.innerHTML = await getHtml(htmlSourcePath);
+
+//   try {
+//     customElements.define(
+//       componentName,
+//       class extends HTMLElement {
+//         constructor() {
+//           super();
+//           console.log(`Class ${componentName} created!`);
+//         }
+
+//         connectedCallback() {
+//           console.log("connectedCallback");
+//           this.attachShadow({ mode: "closed" }).appendChild(template.content);
+//         }
+//       }
+//     );    
+//   } catch (error) {
+//     console.error(`Error creating component: ${error}`);
+//   }
+// }
+
+// export default createComponent;
