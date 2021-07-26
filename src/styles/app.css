@@ -1,119 +1,75 @@
+@import "./main/header.css";
+@import "./main/footer.css";
+
 * {
   padding: 0;
   margin: 0;
 }
 
-@media screen and (max-width: 630px) {
-
-}
-
-@media screen and (min-width: 630px) {
-
-}
-
-@media screen and (max-width: 349px) {
-
-}
-
-@media screen and (min-width: 350px) {
-
-}
-
 body {
   background-color: #f3f4f6;
-  color: #333333
+  color: #333333;
 }
 
-.app {
+.app-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
 
-  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+
+  font-family: "Montserrat", sans-serif;
 }
 
-header {
+.container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  background-color: red;
+
+  transition: all 0.1s linear;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .container.responsive {
+    width: 100%;
+
+    background-color: rgb(255, 50, 50);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .container.responsive {
+    width: 90%;
+    padding: 10pt;
+
+    background-color: rgb(255, 100, 100);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container.responsive {
+    width: 80%;
+
+    background-color: rgb(255, 150, 150);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .responsive-container {
+    width: 75%;
+
+    background-color: rgb(255, 200, 200);
+  }
 }
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  background-color: rgb(211, 110, 110);
-}
-
-.header-nav-buttons {
-  display: flex;
-  flex-direction: row;
-  height: 32pt;
-  
-  background-color: rgb(122, 206, 206);
-}
-
-.footer-nav {
-  display: flex;
-
-  background-color: rgb(174, 110, 211);
-}
-
-.footer-logo {
-  width: 256px;
-  height: 54px;
-  margin: 16pt;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: larger;
-
-  background-color: rgb(211, 110, 110);
-}
-
-.footer-nav-links {
-  display: flex;
-  flex-direction: row;
-
-  font-size: small;
-
-  background-color: #8067b9;
-}
-
-.footer-separator {
-  
-}
-
-.footer-nav-circle-buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-
-.footer-nav-links > span {
-  margin: 16px 32px;
-}
-
-.circle-button {
-  width: 44px;
-  height: 44px;
-  background-color: aqua;
-
-  border-radius: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: 8px;
 }

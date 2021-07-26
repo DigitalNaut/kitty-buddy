@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+
+  padding: 8pt;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(211, 110, 110);
+}
+
+.header-nav-buttons {
+  display: flex;
+  flex-direction: row;
+
+  height: 32pt;
+  
+  background-color: rgb(122, 206, 206);
+}
+
+.header-nav-buttons > button {
+  margin: 8pt;
+}
