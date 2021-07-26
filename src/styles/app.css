@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+/* Transition fix on load */
+
+.preload * {
+  transition: none !important;
+}
 body {
   background-color: #f3f4f6;
   color: #333333;
