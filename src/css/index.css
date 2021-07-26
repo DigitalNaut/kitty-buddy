@@ -34,10 +34,6 @@ section {
 }
 
 .gallery-invitation > a {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-
   line-height: 36pt; /* Center text vertically */
   text-decoration: none;
 
