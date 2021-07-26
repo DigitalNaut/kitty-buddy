@@ -1,4 +1,5 @@
 @import "./index/featuredSection.css";
+@import "./index/galleryInvitation.css";
 
 body.dark-mode {
   background-color: #151515;
@@ -18,30 +19,4 @@ section {
 .hero {
   height: 460px;
   background-color: rgb(123, 157, 221);
-}
-
-.gallery-invitation {
-  height: 250px;
-  
-  background-color: rgb(100, 100, 100);
-  background-image: url("https://as1.ftcdn.net/v2/jpg/02/20/63/28/1000_F_220632879_UngWt6d4KJ8WMda4KoV6XQdTe2bA88GT.jpg");
-  background-position: right;
-
-  object-fit: cover;
-  display: flex;
-  
-  align-items: center;
-}
-
-.gallery-invitation > a {
-  line-height: 36pt; /* Center text vertically */
-  text-decoration: none;
-
-  width: 150pt;
-  height: 36pt;
-  
-  border: none;
-
-  color: white;
-  background-color: #18A0FB;
 }
