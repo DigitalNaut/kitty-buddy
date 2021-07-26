@@ -22,6 +22,7 @@ footer {
   flex-direction: row;
 
   font-size: small;
+  text-align: center;
 
   background-color: #8067b9;
 }
@@ -59,7 +60,11 @@ footer {
 }
 
 .footer-copyright {
+  display: inline-block;
+
+  padding: 8pt;
+  
   font-size: small;
   font-weight: 200;
-  padding: 8pt;
+  text-align: center;
 }
