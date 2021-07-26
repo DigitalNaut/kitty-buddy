@@ -14,5 +14,12 @@
 
 .featured-profiles {
   display: flex;
-  justify-content: center;
+
+  place-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .featured-profiles.responsive {
+    flex-direction: column;
+  }
 }
