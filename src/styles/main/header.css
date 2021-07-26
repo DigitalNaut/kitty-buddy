@@ -1,19 +1,15 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   padding: 8pt;
+  align-items: center;
+
+  color: white;
+  background-color: rgb(136, 32, 32);
 }
 
 .header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  background-color: rgb(211, 110, 110);
-}
-
-.header-nav-buttons {
   display: flex;
   flex-direction: row;
 
@@ -22,6 +18,11 @@ header {
   background-color: rgb(122, 206, 206);
 }
 
-.header-nav-buttons > button {
-  margin: 8pt;
+.header-nav > button {
+  cursor: pointer;
+  padding: 8pt;
+
+  height: 100%;
+
+  border: none;
 }

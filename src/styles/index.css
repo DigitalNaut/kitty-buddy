@@ -28,7 +28,14 @@ section {
   align-items: center;
 }
 
-.gallery-invitation-button {
+.gallery-invitation > button {
+  cursor: pointer;
+
   width: 150pt;
-  height: 60pt;
+  height: 36pt;
+  
+  border: none;
+
+  color: white;
+  background-color: #18A0FB;
 }
