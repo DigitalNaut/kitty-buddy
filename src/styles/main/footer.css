@@ -7,7 +7,7 @@ footer {
   width: 256px;
   height: 54px;
   margin: 16pt;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ footer {
 .footer-separator {
   width: 80%;
   height: 2px;
-  
+
   margin: 10pt 0;
 
   background-color: #159c37;
@@ -46,6 +46,8 @@ footer {
 }
 
 .circle-button {
+  cursor: pointer;
+
   width: 36pt;
   height: 36pt;
   background-color: aqua;
@@ -63,7 +65,7 @@ footer {
   display: inline-block;
 
   padding: 8pt;
-  
+
   font-size: small;
   font-weight: 200;
   text-align: center;
