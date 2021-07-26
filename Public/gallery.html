@@ -10,25 +10,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap"
     rel="stylesheet">
 
-  <script src="https://kit.fontawesome.com/c4c53aa212.js" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="../src/css/app.css" />
-  <link rel="stylesheet" href="../src/css/index.css" />
 
   <script src="../src/js/preload.js"></script>
+  <script src="/src/components/Header/header.mjs" type="module" crossorigin="anonymous"></script>
+  <script src="/src/components/Footer/footer.mjs" type="module" crossorigin="anonymous"></script>
 </head>
 
 <body class="dark preload">
   <div class="app-wrapper">
     <div class="container responsive">
 
-      <header>
-        <div>KittyBuddy</div>
-        <nav class="header-nav">
-          <button>View Gallery</button>
-          <button><i class="fas fa-moon"></i></button>
-        </nav>
-      </header>
+      <header-component></header-component>
 
       <main>
         <div>
@@ -40,27 +33,7 @@
         </div>
       </main>
 
-      <footer>
-        <nav>
-          <div class="footer-logo">KittyBuddy</div>
-          <div class="footer-nav-links">
-            <span><a href="#">Source Code</a></span>
-            <span><a href="#">About Hackademy</a></span>
-            <span><a href="#">About the Project</a></span>
-            <span><a href="#">About Me</a></span>
-          </div>
-
-          <div class="footer-separator" ></div>
-
-          <div class="footer-nav-circle-buttons">
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-            <span class="circle-button"></span>
-          </div>
-          <span class="footer-copyright">&copy;DigitalNaut. John Bernal 2021. Kindness to animals.</span>
-        </nav>
-      </footer>
+      <footer-component></footer-component>
 
     </div>
   </div>
