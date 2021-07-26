@@ -10,7 +10,7 @@ class FeaturedProfile extends HTMLElement {
 
   connectedCallback() {
     this.attachShadow({ mode: "open" });
-    const el = this.shadowRoot.appendChild(template.content.cloneNode(true));
+    this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 }
 
