@@ -1,6 +1,8 @@
 @import "./main/header.css";
 @import "./main/footer.css";
 
+/* Baseline styles */
+
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +13,9 @@
 .preload * {
   transition: none !important;
 }
+
+/* Main styles */
+
 body {
   background-color: #f3f4f6;
   color: #333333;
