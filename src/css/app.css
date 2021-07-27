@@ -22,6 +22,15 @@ body {
   color: #333333;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  place-content: center;
+
+  height: 100%;
+}
+
 .app-wrapper {
   display: flex;
   flex-direction: column;

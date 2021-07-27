@@ -1,0 +1,57 @@
+.grid-profile {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background-color: rgb(91, 81, 179);
+  margin: 4pt;
+
+  border-radius: 4pt;
+  overflow: hidden;
+}
+
+.profile {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  place-content: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 576px) {
+  .profile.responsive {
+    width: 70%;
+    margin: 4pt;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .profile.responsive {
+    width: 90%;
+    margin: 4pt;
+  }
+}
+
+.picture {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 250px;
+  
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.profile-caption {
+  display: flex;
+  flex-direction: column;
+
+  padding: 8pt;
+
+  font-size: small;
+  color: white;
+}

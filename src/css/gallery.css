@@ -1,0 +1,36 @@
+.grid-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: aqua;
+}
+
+.grid-title {
+  margin: 8pt;
+}
+
+.grid-logo {
+  margin: 8pt;
+}
+
+.grid-section {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  margin: 0;
+
+  background-color: antiquewhite;
+}
+
+.grid-gallery {
+  min-height: 450px;
+
+  margin: 8pt;
+  background-color: white;
+}
