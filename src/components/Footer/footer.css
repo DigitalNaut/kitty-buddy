@@ -1,9 +1,5 @@
 footer {
-  /* background: url("https://st2.depositphotos.com/6698172/10355/v/600/depositphotos_103552274-stock-illustration-cats-and-fish-seamless-pattern.jpg") center top repeat; */
-  /* background: url("https://static.vecteezy.com/system/resources/thumbnails/000/161/634/small/Untitled-3.png") center top repeat; */
-  /* background: url("https://static.vecteezy.com/system/resources/previews/003/047/741/non_2x/seamless-pattern-with-different-cats-and-balls-of-yarn-vector.jpg") center top repeat; */
-
-  background-color: azure;
+  background-color: antiquewhite;
   padding: 8pt;
 }
 
@@ -14,8 +10,8 @@ nav {
 }
 
 .footer-logo {
-  width: 256px;
-  height: 54px;
+  width: 150px;
+  height: 95px;
   margin: 16pt;
 
   display: flex;
@@ -33,12 +29,10 @@ nav {
 
   font-size: small;
   text-align: center;
-
-  background-color: #8067b9;
 }
 
 .footer-nav > a {
-  color: white;
+  color: #333333;
 
   text-decoration: none;
   margin: 0 16pt;
@@ -50,7 +44,7 @@ nav {
 
   margin: 10pt 0;
 
-  background-color: #159c37;
+  background-color: #333333;
 }
 
 .footer-nav-circle-buttons {
@@ -61,11 +55,14 @@ nav {
 .circle-button {
   cursor: pointer;
 
-  width: 36pt;
-  height: 36pt;
-  background-color: aqua;
-
+  width: 24pt;
+  height: 24pt;
+  background-color: azure;
+  
+  border: #333333 dashed 1pt;
   border-radius: 100%;
+
+  overflow: hidden;
 
   display: flex;
   justify-content: center;
