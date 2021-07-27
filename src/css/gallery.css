@@ -50,3 +50,11 @@
 .gallery-loader {
   min-height: 128px;
 }
+
+.caption-name {
+  font-size: medium;
+}
+
+.caption-age {
+  font-size: small;
+}
