@@ -4,20 +4,20 @@
 
   align-items: center;
 
-  background-color: greenyellow;
-  border: 3px solid red;
+  background-color: rgb(91, 81, 179);
+  margin: 4pt;
+
+  border-radius: 4pt;
+  overflow: hidden;
 }
 
 .profile {
-  width: 90%;
-  margin: 8pt;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
 
   place-content: center;
-
-  background-color: blue;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -36,33 +36,27 @@
   }
 }
 
-.profile-picture {
-  min-width: 100%;
-  max-height: 250px;
+.picture {
+  box-sizing: border-box;
 
-  display: flex;
-  overflow: hidden;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-picture > img {
   width: 100%;
-  min-height: 250px;
-
+  height: 250px;
+  
+  overflow: hidden;
   flex-shrink: 0;
-
-  object-fit: cover;
 }
-
 
 .profile-caption {
   display: flex;
-  flex-direction: column;
+
+  justify-content: center;
 
   padding: 8pt;
 
   font-size: small;
   color: white;
+}
+
+.caption-spacer {
+  margin: 0 8pt;
 }
