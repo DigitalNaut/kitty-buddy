@@ -19,7 +19,7 @@
 /* background-color: #36393F; */
 
 body {
-  background-color: #FFA94D;
+  background-color: #ffa94d;
   color: #333333;
 }
 
@@ -95,10 +95,7 @@ nav {
   background-size: cover;
   background: url("https://static.vecteezy.com/system/resources/previews/003/047/741/non_2x/seamless-pattern-with-different-cats-and-balls-of-yarn-vector.jpg")
     center top repeat fixed;
-  /* background: url("https://as1.ftcdn.net/v2/jpg/02/20/63/28/1000_F_220632879_UngWt6d4KJ8WMda4KoV6XQdTe2bA88GT.jpg") center center local; */
-  /* background: url("https://c.wallhere.com/photos/a4/83/1600x1000_px_grass_Green_landscape_nature-684630.jpg!d") center top fixed; */
-  /* background: url("https://st2.depositphotos.com/6698172/10355/v/600/depositphotos_103552274-stock-illustration-cats-and-fish-seamless-pattern.jpg") center top repeat fixed; */
-
+    
   object-fit: contain;
   display: flex;
 
@@ -114,7 +111,7 @@ nav {
   border: none;
 
   color: white;
-  background-color: #2AA5D1;
+  background-color: #2aa5d1;
 
   box-shadow: 16pt;
 }

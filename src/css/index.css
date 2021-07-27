@@ -10,8 +10,8 @@ body.dark-mode {
   align-items: center;
 
   height: 460px;
-  background: rgb(123, 157, 221)
-    url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat right center fixed;
+  background: url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat right
+    center fixed;
 
   transition-duration: 0.1s;
 }
@@ -33,13 +33,15 @@ body.dark-mode {
 .hero > .logo {
   width: 395px;
   height: 250px;
-  background: url("/Public/images/HeroLogo.png") no-repeat center center;}
+  background: url("/Public/images/HeroLogo.png") no-repeat center center;
+}
 
 @media screen and (max-width: 576px) {
   .hero > .logo {
     width: 128px;
     height: 128px;
-    background: url("/Public/images/IconLogo128x128White.png") no-repeat center center;
+    background: url("/Public/images/IconLogo128x128White.png") no-repeat center
+      center;
   }
 }
 
@@ -47,7 +49,8 @@ body.dark-mode {
   .hero > .logo {
     width: 256px;
     height: 256px;
-    background: url("/Public/images/IconLogo256x256White.png") no-repeat center center;
+    background: url("/Public/images/IconLogo256x256White.png") no-repeat center
+      center;
   }
 }
 
