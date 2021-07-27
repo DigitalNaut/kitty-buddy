@@ -12,38 +12,16 @@
 }
 
 .profile {
-  width: 100%;
-
   display: flex;
   flex-direction: column;
 
   place-content: center;
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 576px) {
   .profile.responsive {
-    width: 70%;
     margin: 4pt;
   }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-  .profile.responsive {
-    width: 90%;
-    margin: 4pt;
-  }
-}
-
-.picture {
-  box-sizing: border-box;
-
-  width: 100%;
-  height: 250px;
-  
-  overflow: hidden;
-  flex-shrink: 0;
 }
 
 .profile-caption {
