@@ -6,7 +6,8 @@ header {
   align-items: center;
 
   color: white;
-  background-color: rgb(136, 32, 32);
+  background-color: #D2812A;
+  /* background-color: rgb(136, 32, 32); */
 }
 
 a {
@@ -19,12 +20,11 @@ a {
 
 .logo {
   height: 32px;
-  width: 88px;
+  width: 50px;
 
   margin: 0 16pt;
 
-  color: white;
-  background-image: url(/Public/images/HeaderLogo.png);
+  background: url("/Public/images/HeaderLogo.png") center center no-repeat;
 }
 
 .header-nav {
@@ -37,7 +37,14 @@ a {
 
 .header-nav > a {
   margin: 0 4pt;
-  padding: 4 16pt;
+  padding: 4pt 16pt;
 
-  background-color: rgb(122, 206, 206);
+  border-radius: 2pt;
+
+  color: white;
+  background-color: #2aa5d1;
+}
+
+.header-nav > a.darker {
+  background-color: #006185;
 }

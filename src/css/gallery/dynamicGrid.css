@@ -5,6 +5,8 @@
   display: grid;
   grid-template-columns: repeat(4, 25%);
 
+  border-radius: 4pt;
+
   align-items: center;
 }
 

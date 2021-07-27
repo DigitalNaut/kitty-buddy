@@ -15,10 +15,11 @@
 
 /* Main styles */
 
+/* Dark mode background color */
+/* background-color: #36393F; */
+
 body {
-  background-color: #f3f4f6;
-  /* Dark mode background color */
-  /* background-color: #36393F; */
+  background-color: #FFA94D;
   color: #333333;
 }
 
@@ -50,8 +51,6 @@ a {
   display: flex;
   flex-direction: column;
 
-  background-color: red;
-
   transition: all 0.1s linear;
 }
 
@@ -59,8 +58,6 @@ a {
 @media screen and (min-width: 576px) {
   .container.responsive {
     width: 100%;
-
-    background-color: rgb(255, 50, 50);
   }
 }
 
@@ -69,8 +66,6 @@ a {
   .container.responsive {
     width: 90%;
     padding: 10pt;
-
-    background-color: rgb(255, 100, 100);
   }
 }
 
@@ -78,8 +73,6 @@ a {
 @media (min-width: 992px) {
   .container.responsive {
     width: 80%;
-
-    background-color: rgb(255, 150, 150);
   }
 }
 
@@ -87,8 +80,6 @@ a {
 @media (min-width: 1200px) {
   .responsive-container {
     width: 75%;
-
-    background-color: rgb(255, 200, 200);
   }
 }
 
@@ -102,7 +93,8 @@ nav {
   height: 250px;
 
   background-size: cover;
-  background: url("https://static.vecteezy.com/system/resources/previews/003/047/741/non_2x/seamless-pattern-with-different-cats-and-balls-of-yarn-vector.jpg") center top repeat fixed;
+  background: url("https://static.vecteezy.com/system/resources/previews/003/047/741/non_2x/seamless-pattern-with-different-cats-and-balls-of-yarn-vector.jpg")
+    center top repeat fixed;
   /* background: url("https://as1.ftcdn.net/v2/jpg/02/20/63/28/1000_F_220632879_UngWt6d4KJ8WMda4KoV6XQdTe2bA88GT.jpg") center center local; */
   /* background: url("https://c.wallhere.com/photos/a4/83/1600x1000_px_grass_Green_landscape_nature-684630.jpg!d") center top fixed; */
   /* background: url("https://st2.depositphotos.com/6698172/10355/v/600/depositphotos_103552274-stock-illustration-cats-and-fish-seamless-pattern.jpg") center top repeat fixed; */
@@ -122,7 +114,7 @@ nav {
   border: none;
 
   color: white;
-  background-color: #18a0fb;
+  background-color: #2AA5D1;
 
   box-shadow: 16pt;
 }

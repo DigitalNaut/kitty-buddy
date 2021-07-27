@@ -4,7 +4,7 @@
 
   align-items: center;
 
-  background-color: rgb(91, 81, 179);
+  background-color: #D2812A;
   margin: 4pt;
 
   border-radius: 4pt;
@@ -54,7 +54,7 @@
   padding: 8pt;
 
   font-size: small;
-  color: white;
+  color: antiquewhite;
 }
 
 .caption-spacer {

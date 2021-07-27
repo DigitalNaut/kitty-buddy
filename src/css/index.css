@@ -31,16 +31,15 @@ body.dark-mode {
 }
 
 .hero > .logo {
-  width: 517px;
-  height: 188px;
-  background: url(/Public/images/HeroLogo.png) no-repeat center center;
-}
+  width: 395px;
+  height: 250px;
+  background: url("/Public/images/HeroLogo.png") no-repeat center center;}
 
 @media screen and (max-width: 576px) {
   .hero > .logo {
     width: 128px;
     height: 128px;
-    background: url(/Public/images/IconLogo128x128White.png) no-repeat center center;
+    background: url("/Public/images/IconLogo128x128White.png") no-repeat center center;
   }
 }
 
@@ -48,7 +47,7 @@ body.dark-mode {
   .hero > .logo {
     width: 256px;
     height: 256px;
-    background: url(/Public/images/IconLogo256x256White.png) no-repeat center center;
+    background: url("/Public/images/IconLogo256x256White.png") no-repeat center center;
   }
 }
 
