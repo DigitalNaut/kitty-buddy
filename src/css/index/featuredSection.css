@@ -17,7 +17,7 @@
   width: 100%;
   display: flex;
 
-  justify-content: space-around;
+  justify-content: center;
 }
 
 @media screen and (max-width: 576px) {

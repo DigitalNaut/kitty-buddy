@@ -1,5 +1,9 @@
 footer {
-  background-color: rgb(174, 110, 211);
+  /* background: url("https://st2.depositphotos.com/6698172/10355/v/600/depositphotos_103552274-stock-illustration-cats-and-fish-seamless-pattern.jpg") center top repeat; */
+  /* background: url("https://static.vecteezy.com/system/resources/thumbnails/000/161/634/small/Untitled-3.png") center top repeat; */
+  /* background: url("https://static.vecteezy.com/system/resources/previews/003/047/741/non_2x/seamless-pattern-with-different-cats-and-balls-of-yarn-vector.jpg") center top repeat; */
+
+  background-color: azure;
   padding: 8pt;
 }
 
@@ -20,7 +24,7 @@ nav {
 
   font-size: larger;
 
-  background-color: rgb(211, 110, 110);
+  background: url(/Public/images/FooterLogo.png) center center no-repeat;
 }
 
 .footer-nav {

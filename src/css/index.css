@@ -6,17 +6,55 @@ body.dark-mode {
   color: white;
 }
 
-section {
+.hero {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  place-content: center;
+  align-items: center;
 
-  padding: 2pt;
-  height: 100%;
+  height: 460px;
+  background: rgb(123, 157, 221)
+    url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat right center fixed;
+
+  transition-duration: 0.1s;
 }
 
-.hero {
-  height: 460px;
-  background: rgb(123, 157, 221) url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat right center;
+@media screen and (max-width: 576px) {
+  .hero {
+    background-position: left center;
+    height: 128px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-position: left center;
+    height: 360px;
+  }
+}
+
+.hero > .logo {
+  width: 517px;
+  height: 188px;
+  background: url(/Public/images/HeroLogo.png) no-repeat center center;
+}
+
+@media screen and (max-width: 576px) {
+  .hero > .logo {
+    width: 128px;
+    height: 128px;
+    background: url(/Public/images/IconLogo128x128White.png) no-repeat center center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero > .logo {
+    width: 256px;
+    height: 256px;
+    background: url(/Public/images/IconLogo256x256White.png) no-repeat center center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero > .logo {
+    background-position: center center;
+  }
 }

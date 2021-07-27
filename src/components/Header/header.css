@@ -1,8 +1,3 @@
-a {
-  text-decoration: none;
-  color: #333333;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -14,8 +9,22 @@ header {
   background-color: rgb(136, 32, 32);
 }
 
-.logo > a {
+a {
+  text-decoration: none;
+  color: #333333;
+
+  line-height: 32px;
+  padding: 4pt;
+}
+
+.logo {
+  height: 32px;
+  width: 88px;
+
+  margin: 0 16pt;
+
   color: white;
+  background-image: url(/Public/images/HeaderLogo.png);
 }
 
 .header-nav {
@@ -23,12 +32,12 @@ header {
   flex-direction: row;
 
   height: 32pt;
-
-  background-color: rgb(122, 206, 206);
+  padding: 0 8pt;
 }
 
 .header-nav > a {
-  padding: 8pt;
+  margin: 0 4pt;
+  padding: 4 16pt;
 
-  height: 100%;
+  background-color: rgb(122, 206, 206);
 }
