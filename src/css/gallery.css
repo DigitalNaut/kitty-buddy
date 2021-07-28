@@ -11,7 +11,7 @@
   align-items: center;
 
   background: rgb(123, 157, 221)
-    url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat top left fixed;
+    url("https://wallpaperaccess.com/full/3003021.jpg") no-repeat top left fixed;
 }
 
 .gallery-title {
