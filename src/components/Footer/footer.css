@@ -20,7 +20,7 @@ nav {
 
   font-size: larger;
 
-  background: url(/Public/images/FooterLogo.png) center center no-repeat;
+  background: url("/Public/images/FooterLogo.png") center center no-repeat;
 }
 
 .footer-nav {
@@ -58,7 +58,7 @@ nav {
   width: 24pt;
   height: 24pt;
   background-color: azure;
-  
+
   border: #333333 dashed 1pt;
   border-radius: 100%;
 

@@ -10,7 +10,7 @@ body.dark-mode {
   align-items: center;
 
   height: 460px;
-  background: url(https://wallpaperaccess.com/full/3003021.jpg) no-repeat right
+  background: url("https://wallpaperaccess.com/full/3003021.jpg") no-repeat right
     center fixed;
 
   transition-duration: 0.1s;
