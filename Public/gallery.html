@@ -19,7 +19,7 @@
   <script src="/src/components/Footer/footer.mjs" type="module" crossorigin="anonymous"></script>
   <script src="/src/components/GridProfile/grid-profile.mjs" type="module" crossorigin="anonymous"></script>
 
-  <script src="/src/js/dataFetcher.mjs" type="module" crossorigin="anonymous"></script>
+  <script src="/src/js/gridLoader.js" type="module" crossorigin="anonymous"></script>
 </head>
 
 <body class="dark preload">
@@ -31,7 +31,7 @@
       <section>
 
         <div class="gallery-header">
-          <h1 class="gallery-title">Gallery</h1>
+          <h1 class="gallery-title">The Purrfect Gallery</h1>
           <img class="gallery-logo" src="/Public/images/BannerLogo.png" />
         </div>
 
@@ -40,18 +40,18 @@
       <main>
         <section class="gallery-section">
 
-          <div id="notice-empty">
+          <div id="notice-empty" class="notice-empty">
             <p> Nothing to see here yet! </p>
           </div>
 
           <div class="grid-gallery" id="grid-gallery"> </div>
-
-        </section>
-        <section class="big-space gallery-loader">
-
-          <a class="big-button" href="#">Load more</a>
           
+        <div id="load-button" class="gallery-loader">
+          <a class="big-button" href="javascript:void(0)" onclick="loadGridItems()">Load more</a>
+        </div>
+
         </section>
+        <section class="big-space gallery-space"></section>
       </main>
 
       <footer-component></footer-component>

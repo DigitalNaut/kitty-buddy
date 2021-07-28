@@ -35,6 +35,10 @@
   background-color: antiquewhite;
 }
 
+.notice-empty {
+  font-size: larger;
+}
+
 .picture {
   min-width: 100%;
   height: 100%;
@@ -50,8 +54,16 @@
   flex-shrink: 1;
 }
 
+.gallery-space {
+  max-height: 86px;
+}
+
 .gallery-loader {
-  min-height: 128px;
+  display: none;
+
+  place-content: center;
+
+  padding-bottom: 16pt;
 }
 
 .caption-name {
