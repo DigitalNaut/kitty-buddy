@@ -1,9 +1,9 @@
 import { getHtml } from "/src/js/moduleLoader.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = await getHtml("../src/components/Profile/profile.htm");
+template.innerHTML = await getHtml("../src/components/FeaturedProfile/featured-profile.htm");
 
-class FeaturedProfile extends HTMLElement {
+class featuredProfile extends HTMLElement {
   constructor() {
     super();
   }
@@ -14,4 +14,4 @@ class FeaturedProfile extends HTMLElement {
   }
 }
 
-customElements.define("featured-profile", FeaturedProfile);
+customElements.define("featured-profile", featuredProfile);
