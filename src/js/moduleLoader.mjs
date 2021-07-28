@@ -10,6 +10,8 @@ export async function getHtml(path) {
   }
 }
 
+// Code I couldn't get to work :'(
+
 // async function createComponent(componentName, htmlSourcePath) {
 //   const template = document.createElement("template");
 //   template.innerHTML = await getHtml(htmlSourcePath);
