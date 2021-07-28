@@ -12,18 +12,13 @@ function toggleDisplayMode() {
 function applyTheme() {
   let mode = window.localStorage.getItem("displayMode");
 
-  var elements = [...document.getElementsByClassName("dark")];
+  var darkElements = document.getElementsByClassName("dark");
 
-  if (elements.length > 0) {
-    if (mode === "dark")
-      elements.forEach((element) => {
-        element?.classList.add("dark-theme");
-      });
-    else if (mode === "light")
-      elements.forEach((element) => {
-        element?.classList.remove("dark-theme");
-      });
-  }
+  let changeFn;
+  if (mode === "dark") changeFn = (el) => el.classList.add("dark-theme");
+  else changeFn = (el) => el.classList.remove("dark-theme");
+
+  for (const element of darkElements) changeFn(element);
 }
 
 // Initialize display mode
