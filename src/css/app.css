@@ -21,6 +21,13 @@
 body {
   background-color: #d8d8d8;
   color: #333333;
+
+  transition-duration: 0.1s;
+}
+
+body.dark-theme {
+  background-color: #151515;
+  color: white;
 }
 
 section {

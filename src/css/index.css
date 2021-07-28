@@ -1,10 +1,5 @@
 @import "./index/featuredSection.css";
 
-body.dark-theme {
-  background-color: #151515;
-  color: white;
-}
-
 .hero {
   display: flex;
   align-items: center;
@@ -14,6 +9,10 @@ body.dark-theme {
     center fixed;
 
   transition-duration: 0.1s;
+}
+
+.hero.dark-theme {
+  filter: brightness(80%);
 }
 
 @media screen and (max-width: 576px) {
