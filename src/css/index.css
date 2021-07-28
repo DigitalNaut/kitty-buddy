@@ -1,6 +1,6 @@
 @import "./index/featuredSection.css";
 
-body.dark-mode {
+body.dark-theme {
   background-color: #151515;
   color: white;
 }
