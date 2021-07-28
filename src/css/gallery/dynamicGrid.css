@@ -10,6 +10,11 @@
   align-items: center;
 }
 
+.grid-gallery.dark-theme {
+  color: white;
+  background-color: #535353;
+}
+
 @media screen and (max-width: 576px) {
   .grid-gallery {
     grid-template-columns: repeat(2, 50%);

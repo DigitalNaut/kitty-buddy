@@ -3,8 +3,9 @@ footer {
   padding: 8pt;
 }
 
-footer.dark {
+footer.dark-theme {
   background-color: #36393F;
+  color: antiquewhite;
 }
 
 nav {
