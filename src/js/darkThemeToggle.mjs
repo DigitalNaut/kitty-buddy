@@ -15,8 +15,11 @@ function applyTheme() {
   var darkElements = document.getElementsByClassName("dark");
 
   let changeFn;
-  if (mode === "dark") changeFn = (el) => el.classList.add("dark-theme");
-  else changeFn = (el) => el.classList.remove("dark-theme");
+  // prettier-ignore
+  if (mode === "dark")
+    changeFn = (el) => el.classList.add("dark-theme");
+  else
+    changeFn = (el) => el.classList.remove("dark-theme");
 
   for (const element of darkElements) changeFn(element);
 }
