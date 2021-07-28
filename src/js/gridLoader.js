@@ -23,10 +23,9 @@ function gridProfileConstructor(item) {
 
 function loadGridItems() {
   // Alternatingly load 5 or 4 items to maintain grid positions
+  // ! Known bug: Inconsistent itemsNum causes page to fetch items that were already displayed, leading to duplicates
   const itemsNum = ++pageCount % 2 ? 5 : 4;
   loadItems(grid, gridProfileConstructor, pageCount, itemsNum);
-
-  console.log(pageCount, itemsNum);
 }
 
 // Populate the grid first
