@@ -61,10 +61,12 @@ a {
   flex-direction: column;
 
   transition: all 100ms 50ms;
+
+  box-shadow: 0 5pt 12pt #13131333;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     width: 100%;
   }
@@ -79,7 +81,7 @@ a {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .container {
     width: 80%;
   }
