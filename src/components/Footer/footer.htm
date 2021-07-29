@@ -6,21 +6,76 @@
     <nav>
       <div class="footer-logo" part="logo"></div>
       <div class="footer-nav">
-        <a href="#">Source Code</a>
-        <a href="#">About Hackademy</a>
-        <a href="#">About the Project</a>
-        <a href="#">About Me</a>
+        <a href="https://github.com/DigitalNaut/kitty-buddy" rel=”noreferrer” target="_blank">Source Code</a>
+        <a href="https://www.linkedin.com/company/hackademymx" rel=”noreferrer” target="_blank">About Hackademy</a>
+        <a href="javascript:void(0)" id="modal-open">About this Project</a>
       </div>
 
       <div class="footer-separator" part="separator"></div>
 
       <div class="footer-nav-circle-buttons">
-        <span class="circle-button"></span>
-        <span class="circle-button"></span>
-        <span class="circle-button"></span>
-        <span class="circle-button"></span>
+        <span class="circle-button">
+          <a href="https://github.com/DigitalNaut" rel=”noreferrer” target="_blank">
+            <img class="circle-button-icon"
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+          </a>
+        </span>
+        <span class="circle-button">
+          <a href="https://www.linkedin.com/in/johnbernalfsd/" rel=”noreferrer” target="_blank">
+            <img class="circle-button-icon"
+              src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" />
+          </a>
+        </span>
+        <span class="circle-button invert">
+          <a href="https://hackademy.lat/" rel=”noreferrer” target="_blank">
+            <img class="circle-button-icon" src="https://hackademy.lat/assets/images/logo.png" />
+          </a>
+        </span>
+        <span class="circle-button invert">
+          <a href="https://mockapi.io/" rel=”noreferrer” target="_blank">
+            <img class="circle-button-icon" src="https://cdn.changelog.com/uploads/icons/topics/kJ/icon_large.png" />
+          </a>
+        </span>
       </div>
       <span class="footer-copyright">&copy;DigitalNaut. John Bernal 2021. Kindness to animals.</span>
     </nav>
   </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <h1>About this project</h1>
+      <p>This project was created for a two-week code challenge as part of an entry submission for <a href="http://hackademy.lat" rel=”noreferrer”
+          target="_blank">Hackademy</a>. Its requirements included:</p>
+      <ul>
+        <li>
+          Use of vanilla JavaScript, HTML and CSS only without external libraries.
+        </li>
+        <li>
+          Connection to an external database, <a href="http://mockapi.io" rel=”noreferrer”
+          target="_blank">MockAPI</a>, to fetch data about pets (cats thematic chosen by personal preference).
+        </li>
+        <li>
+          Display the fetched data, including its name, age, breed, and picture.
+        </li>
+        <li>
+          Conclude the challenge between July 22, 2021 and July 29, 2021.
+        </li>
+      </ul>
+      <h3>Legal notice</h3>
+      <p>All images are attributed to their respective owners and are used for educational purposes only with the
+        exception of the KittyBuddy logo and its derivatives that are property of the author of this work.</p>
+      <p>The fonts used on this website are freely available on <a href="http://fonts.google.com" rel=”noreferrer”
+          target="_blank">Google Fonts</a> and <a href="http://fontawesome.com" rel=”noreferrer”
+          target="_blank">FontAwesome</a>.</p>
+      <p>The source code is openly available on <a href="https://github.com/DigitalNaut/kitty-buddy" rel=”noreferrer”
+          target="_blank">GitHub</a>. If you'd like to use this code in part or in full, please contact the
+        author via the <a href="https://github.com/DigitalNaut" rel=”noreferrer”
+        target="_blank">GitHub</a> or the <a href="https://www.linkedin.com/in/johnbernalfsd/" rel=”noreferrer”
+        target="_blank">LinkedIn</a> networks.</p>
+      <br />
+      <p>Thank you for visiting! &hearts;</p>
+    </div>
+  </div>
+
 </div>
