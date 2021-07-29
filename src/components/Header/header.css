@@ -19,7 +19,7 @@ a {
 
   margin: 0 16pt;
 
-  background: url("/Public/images/HeaderLogo.png") center center no-repeat;
+  background: url("../../../docs/images/HeaderLogo.png") center center no-repeat;
 }
 
 .header-nav {

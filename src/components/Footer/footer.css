@@ -23,7 +23,7 @@ nav {
 
   font-size: larger;
 
-  background: url("/Public/images/FooterLogo.png") center center no-repeat;
+  background: url("../../../docs/images/FooterLogo.png") center center no-repeat;
 }
 
 .footer-nav {

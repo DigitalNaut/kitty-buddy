@@ -1,5 +1,5 @@
-import { getHtml } from "../src/js/moduleLoader.mjs";
-import "../src/js/darkThemeToggle.mjs";
+import { getHtml } from "../../js/moduleLoader.mjs";
+import "../../js/darkThemeToggle.mjs";
 
 const template = document.createElement("template");
 template.innerHTML = await getHtml("../src/components/Header/header.htm");
