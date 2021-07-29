@@ -130,6 +130,13 @@ nav {
   background-color: #006185;
 }
 
+header-component {
+  position: sticky;
+  top: 0;
+
+  z-index: 1;
+}
+
 header-component.dark-theme::part(dark) {
   background-color: #854B0D;
 }
