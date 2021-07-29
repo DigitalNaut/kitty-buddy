@@ -19,7 +19,6 @@ body {
   background-color: #d8d8d8;
   color: #333333;
 
-  transition-duration: 0.1s;
 }
 
 body.dark-theme {
@@ -60,19 +59,19 @@ a {
   display: flex;
   flex-direction: column;
 
-  transition: all 0.1s linear;
+  transition: all 100ms 50ms;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-  .container.responsive {
+  .container {
     width: 100%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  .container.responsive {
+  .container {
     width: 90%;
     padding: 10pt;
   }
@@ -80,15 +79,8 @@ a {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .container.responsive {
+  .container {
     width: 80%;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .responsive-container {
-    width: 75%;
   }
 }
 
@@ -122,7 +114,15 @@ nav {
   color: white;
   background-color: #2aa5d1;
 
-  box-shadow: 16pt;
+  box-shadow: 0 5pt 12pt #13131333;
+
+  transition: all 100ms 50ms;
+}
+
+.big-button:hover {
+  filter: brightness(1.1);
+}
+
 .big-button.dark-theme {
   background-color: #006185;
 }

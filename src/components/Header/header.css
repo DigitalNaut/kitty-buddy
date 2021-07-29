@@ -11,9 +11,6 @@ header {
 a {
   text-decoration: none;
   color: #333333;
-
-  line-height: 32px;
-  padding: 4pt;
 }
 
 .logo {
@@ -43,6 +40,9 @@ a {
 
   color: white;
   background-color: #2aa5d1;
+
+  transition: all 100ms 50ms;
+}
 
 .header-nav > a:hover {
   filter: brightness(1.1);

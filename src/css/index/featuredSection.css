@@ -21,8 +21,9 @@
 }
 
 @media screen and (max-width: 576px) {
-  .featured-profiles.responsive {
+  .featured-profiles {
     flex-direction: column;
+    align-items: center;
   }
 }
 

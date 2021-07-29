@@ -10,14 +10,22 @@
   justify-content: space-between;
   align-items: center;
 
-  background: rgb(123, 157, 221)
-    url("https://wallpaperaccess.com/full/3003021.jpg") no-repeat top left fixed;
+  background: #deb646 url("https://wallpaperaccess.com/full/3003021.jpg")
+    no-repeat top left fixed;
+}
+
 .gallery-header.dark-theme {
   background: #D2812A;
 }
 
 .gallery-title {
   margin: 8pt;
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-title {
+    font-size: larger;
+  }
 }
 
 .gallery-logo {
