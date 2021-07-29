@@ -19,6 +19,7 @@ body {
   background-color: #d8d8d8;
   color: #333333;
 
+  transition: all 100ms 50ms;
 }
 
 body.dark-theme {
