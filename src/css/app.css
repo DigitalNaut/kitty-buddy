@@ -123,4 +123,30 @@ nav {
   background-color: #2aa5d1;
 
   box-shadow: 16pt;
+.big-button.dark-theme {
+  background-color: #006185;
+}
+
+header-component.dark-theme::part(dark) {
+  background-color: #854B0D;
+}
+
+header-component.dark-theme::part(button) {
+  background-color: #006185;
+}
+
+header-component.dark-theme::part(toggle) {
+  background-color: #003B52;
+}
+
+footer-component.dark-theme::part(dark) {
+  background-color: #36393F;
+}
+
+footer-component.dark-theme::part(logo) {
+  filter: invert();
+}
+
+footer-component.dark-theme::part(separator) {
+  background-color: white;
 }

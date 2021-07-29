@@ -9,10 +9,10 @@ function toggleDisplayMode() {
 }
 
 // Toggle classes based on settings
-function applyTheme() {
+function applyTheme(target) {
   let mode = window.localStorage.getItem("displayMode");
 
-  var darkElements = document.getElementsByClassName("dark");
+  let darkElements = document.getElementsByClassName("dark");
 
   let changeFn;
   // prettier-ignore

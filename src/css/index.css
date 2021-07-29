@@ -11,8 +11,8 @@
   transition-duration: 0.1s;
 }
 
-.hero.dark-theme {
-  filter: brightness(80%);
+.logo.dark-theme {
+  filter: invert() contrast(0.6) brightness(1.2);
 }
 
 @media screen and (max-width: 576px) {
@@ -57,4 +57,9 @@
   .hero > .logo {
     background-position: center center;
   }
+}
+
+featured-profile.dark-theme::part(caption) {
+  color: white;
+  background-color: green;
 }

@@ -3,13 +3,13 @@
     @import "/src/components/FeaturedProfile/featured-profile.css";
   </style>
 
-  <div class="profile responsive">
+  <div class="profile">
 
     <div class="picture">
       <slot name="image"></slot>
     </div>
 
-    <div class="profile-caption">
+    <div class="profile-caption" part="caption">
       <slot name="name">Name</slot>
       <span class="caption-spacer">|</span>
       <slot name="age">Age</slot>

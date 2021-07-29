@@ -4,14 +4,15 @@
     @import "/src/components/Header/header.css";
     @import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css";
   </style>
-  <header>
+  <header part="dark">
     <a href="/Public/index.html" referrerpolicy="no-referrer">
       <div class="logo"></div>
     </a>
     <nav class="header-nav">
-      <a href="/Public/gallery.html" referrerpolicy="no-referrer">View Gallery</a>
-      <a href="javascript:void(0)" onclick="toggleDarkMode()" class="darker"><i class="fas fa-moon"
-          title="Night theme"></i></a>
+      <a href="/Public/gallery.html" referrerpolicy="no-referrer" class="button" part="button">View Gallery</a>
+      <a href="javascript:void(0)" onclick="toggleDarkMode()" class="darker" part="toggle">
+        <i class="fas fa-moon toggle" title="Night theme" id="toggle-icon"></i>
+      </a>
     </nav>
   </header>
 </div>

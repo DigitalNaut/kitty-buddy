@@ -12,6 +12,8 @@
 
   background: rgb(123, 157, 221)
     url("https://wallpaperaccess.com/full/3003021.jpg") no-repeat top left fixed;
+.gallery-header.dark-theme {
+  background: #D2812A;
 }
 
 .gallery-title {
