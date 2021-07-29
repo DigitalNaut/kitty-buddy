@@ -26,4 +26,6 @@ export async function loadItems(container, constructor, page, itemsNum) {
   data.forEach((item) => {
     container.appendChild(constructor(item));
   });
+
+  return data.length > 0;
 }
