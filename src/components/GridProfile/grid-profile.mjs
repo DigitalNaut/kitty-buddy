@@ -1,7 +1,7 @@
 import { getHtml } from "../../js/moduleLoader.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = await getHtml("../src/components/GridProfile/grid-profile.htm");
+template.innerHTML = await getHtml("./src/components/GridProfile/grid-profile.htm");
 
 class GridProfile extends HTMLElement {
   constructor() {

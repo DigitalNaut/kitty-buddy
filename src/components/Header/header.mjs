@@ -2,7 +2,7 @@ import { getHtml } from "../../js/moduleLoader.mjs";
 import "../../js/darkThemeToggle.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = await getHtml("../src/components/Header/header.htm");
+template.innerHTML = await getHtml("./src/components/Header/header.htm");
 
 class Header extends HTMLElement {
   constructor() {

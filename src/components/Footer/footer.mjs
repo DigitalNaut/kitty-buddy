@@ -1,7 +1,7 @@
 import { getHtml } from "../../js/moduleLoader.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = await getHtml("../src/components/Footer/footer.htm");
+template.innerHTML = await getHtml("./src/components/Footer/footer.htm");
 
 class Footer extends HTMLElement {
   constructor() {
